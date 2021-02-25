@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.photoalbumandroid67.PhotoAlbum" >
+
+    <item
+        android:id="@+id/add_album"
+        android:orderInCategory="100"
+        android:title="@string/AddAlbum"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_album"
+        android:orderInCategory="100"
+        android:title="@string/DeleteAlbum"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="@string/SearchPhotos"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/SearchbyLoc" android:title="@string/SearchByLocation" android:orderInCategory="100"/>
+            <item android:id="@+id/SearchbyPer" android:title="@string/SearchByPerson" android:orderInCategory="100"/>
+        </menu>
+    </item>
+
+</menu>

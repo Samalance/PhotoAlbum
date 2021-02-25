@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.photoalbumandroid67"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".PhotoAlbum"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddAlbum"
+            android:label="@string/AddAlbum" >
+        </activity>
+        <activity
+            android:name=".DeleteAlbum"
+            android:label="@string/DeleteAlbum" >
+        </activity>
+        <activity
+            android:name=".ViewPhotos"
+            android:label="@string/ViewAlbum" >
+        </activity>
+        <activity
+            android:name=".RenameAlbum"
+            android:label="@string/RenameAlbum" >
+        </activity>
+        <activity
+            android:name=".SlideShow"
+            android:label="@string/SlideShowView" >
+        </activity>
+        <activity
+            android:name=".AddPTag"
+            android:label="@string/AddTag" >
+        </activity>
+        <activity
+            android:name=".AddLTag"
+            android:label="@string/AddTag" >
+        </activity>
+        <activity
+            android:name=".MoveToAlbum"
+            android:label="@string/MovePhotoToAlbum" >
+        </activity>        
+        <activity
+            android:name=".SearchTags"
+            android:label="@string/SearchPhotos" >
+        </activity>     
+        <activity
+            android:name=".FoundImages"
+            android:label="@string/Results" >
+        </activity>  
+    </application>
+
+</manifest>

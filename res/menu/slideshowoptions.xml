@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	    <item
+        android:id="@+id/remove_persontag"
+        android:orderInCategory="100"
+        android:title="@string/RemovePersonTag"
+        android:enabled="true"/>
+        <item
+        android:id="@+id/remove_locationtag"
+        android:orderInCategory="100"
+        android:title="@string/RemoveLocationTag"
+        android:enabled="true"/>
+        <item
+        android:id="@+id/add_persontag"
+        android:orderInCategory="100"
+        android:title="@string/AddPersonTag"
+        android:enabled="true"/>
+        <item
+        android:id="@+id/add_locationtag"
+        android:orderInCategory="100"
+        android:title="@string/AddLocationTag"
+        android:enabled="true"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/renameAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RenameAlbum"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/RenameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/AddAlbumMessage" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/confirmButtonRename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="renameAlbum"
+        android:text="@string/Confirm" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+
+<resources>
+
+    <string name="app_name">PhotoAlbumAndroid67</string>
+    <string name="albumSettings">Album Settings</string>
+    <string name="optionName">AlbumOptions</string>
+    <string name="action_settings">Settings</string>
+    <string name="AddAlbum">Add Album</string>
+    <string name="AlbumNameLabel">Album Name:</string>
+    <string name="AddAlbumMessage">Enter Album Name Here</string>
+     <string name="Confirm">Confirm</string>
+    <string name="DeleteAlbum">Delete Album</string>
+    <string name="SelectDeleteAlbum">Select an Album to Delete:</string>
+    <string name="SelectMoveAlbum">Select an Album to Move Picture to: </string>
+    <string name="RenameAlbum">Rename Album</string>
+    <string name="ViewAlbum">View Album</string>
+    <string name="AddPhoto">Add Photo</string>
+    <string name="AddPersonTag">Add Person Tag</string>
+    <string name="AddLocationTag">Add Location Tag</string>
+    <string name="RemovePersonTag">Remove Person Tag</string>
+    <string name="RemoveLocationTag">Remove Location Tag</string>
+    <string name="RemovePhoto">Remove Photo</string>
+    <string name="MovePhotoToAlbum">Move Photo to Album</string>
+    <string name="AddTag">Add Tag</string>
+    <string name="AddTagMessage">Enter Tag Here</string>
+    <string name="SlideShow">Enter SlideShow</string>
+     <string name="SlideShowView">SlideShow Mode</string>
+    <string name="SearchPhotos">Search Photos</string>
+    <string name="SearchEdit">Insert Text Here</string>
+    <string name="SearchBar">Enter what you want to search: </string>
+     <string name="Results">Results: </string>
+    <string name="SearchByPerson">Search by Person</string>
+    <string name="SearchByLocation">Search By Location</string>
+
+</resources>
